@@ -8,4 +8,7 @@
   <artifactId>rest-apps</artifactId>
   <packaging>pom</packaging>
   <description>定义可以使用的 rest app接口服务</description>
+  <modules>
+  	<module>t-sketchfab</module>
+  </modules>
 </project>
