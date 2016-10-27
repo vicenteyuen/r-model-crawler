@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.vsg.rmodel.cralwer.core;
+package org.vsg.cralwer.core;
 
 
 /**

@@ -1,4 +1,4 @@
-package org.vsg.rmodel.cralwer.core;
+package org.vsg.cralwer.core;
 
 import java.io.File;
 import java.util.Calendar;
