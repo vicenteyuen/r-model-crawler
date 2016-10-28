@@ -9,6 +9,7 @@ import java.util.Set;
 import javax.ws.rs.ApplicationPath;
 
 import org.vsg.rest.plugins.ext.AbstractGuiceInjectApplication;
+import org.vsg.rmodel.tsketchfab.resource.TaskResource;
 
 import com.google.inject.Injector;
 
@@ -30,6 +31,9 @@ public class ApplicationV1_x extends AbstractGuiceInjectApplication {
 		
 		Injector injector = this.getInjector();
 		
+		
+		
+		objects.add( injector.getInstance( TaskResource.class ) );
 
 
 
