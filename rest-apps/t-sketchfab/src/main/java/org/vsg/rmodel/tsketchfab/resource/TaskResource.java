@@ -29,7 +29,7 @@ import org.vsg.crawler.service.TaskService;
 import org.vsg.rmodel.tsketchfab.MessageCodeConstant;
 import org.vsg.vo.model.json.ResponseObj;
 
-import io.reactivex.Observable;
+
 
 /**
  * @author ruanweibiao
@@ -119,12 +119,12 @@ public class TaskResource {
 			
 		} , taskName );
 		
-		Observable<String> howdy = Observable.just("Howdy!");
+		//Observable<String> howdy = Observable.just("Howdy!");
 		
 		
 		
 		
-		howdy.subscribe(System.out::println);
+		//howdy.subscribe(System.out::println);
 		
 		// --- call index build research index ---
 		ResponseObj result = new ResponseObj();

@@ -43,5 +43,6 @@
   	<module>core</module>
   	<module>war-crawler-mon</module>
   	<module>war-crawler-node</module>
+  	<module>rest-apps</module>
   </modules>
 </project>
