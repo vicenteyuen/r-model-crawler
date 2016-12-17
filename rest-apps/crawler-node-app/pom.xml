@@ -26,7 +26,7 @@
  			<id>app-run</id>
   	  	   	<phase>package</phase>
   	  	   	<configuration>
-  	  	   		<platformHome>E:/project-sources/local-git/cusp/cusp-project/platform-build/target/platform-build-0.0.1-SNAPSHOT-singlenode</platformHome>
+  	  	   		<configFile>/platform-conf/platform.xml</configFile>
   	  	   	</configuration>
   	  	   	<goals>
   	  	   	  <goal>run</goal>

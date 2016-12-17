@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cusp>
+	<platform>
+		<conf-file>platform-home/conf/config.properties</conf-file>
+	</platform>
+	<micro-comps>
+		<comp conf="platform-home/micro-comps-conf/conf.properties"></comp>
+	</micro-comps>
+</cusp>
